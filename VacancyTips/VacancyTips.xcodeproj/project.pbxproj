@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2438BDB62AEC6EBE00AA2D1A /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438BDB52AEC6EBE00AA2D1A /* LocationsListView.swift */; };
+		2438BDB82AEC960100AA2D1A /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438BDB72AEC960100AA2D1A /* LocationPreviewView.swift */; };
+		2438BDBA2AECAAFE00AA2D1A /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438BDB92AECAAFE00AA2D1A /* LocationMapAnnotationView.swift */; };
 		24B765132AEB41D100181B92 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B765122AEB41D100181B92 /* LocationsView.swift */; };
 		24B765152AEB452300181B92 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B765142AEB452300181B92 /* LocationsViewModel.swift */; };
 		24C0DDAB2AEABF5B00FA2904 /* VacancyTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0DDAA2AEABF5B00FA2904 /* VacancyTipsApp.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2438BDB52AEC6EBE00AA2D1A /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		2438BDB72AEC960100AA2D1A /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		2438BDB92AECAAFE00AA2D1A /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		24B765122AEB41D100181B92 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		24B765142AEB452300181B92 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		24C0DDA72AEABF5B00FA2904 /* VacancyTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacancyTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				24B765122AEB41D100181B92 /* LocationsView.swift */,
+				2438BDB52AEC6EBE00AA2D1A /* LocationsListView.swift */,
+				2438BDB72AEC960100AA2D1A /* LocationPreviewView.swift */,
+				2438BDB92AECAAFE00AA2D1A /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C0DDC12AEAC4EA00FA2904 /* LocationsDataService.swift in Sources */,
+				2438BDBA2AECAAFE00AA2D1A /* LocationMapAnnotationView.swift in Sources */,
+				2438BDB62AEC6EBE00AA2D1A /* LocationsListView.swift in Sources */,
+				2438BDB82AEC960100AA2D1A /* LocationPreviewView.swift in Sources */,
 				24B765152AEB452300181B92 /* LocationsViewModel.swift in Sources */,
 				24C0DDAD2AEABF5B00FA2904 /* ContentView.swift in Sources */,
 				24B765132AEB41D100181B92 /* LocationsView.swift in Sources */,
