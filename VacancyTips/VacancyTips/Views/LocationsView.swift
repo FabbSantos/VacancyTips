@@ -42,10 +42,11 @@ extension LocationsView {
             Button(action: vm.toggleLocationsList) {
                 Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
                     .font(.title2)
-                    .fontWeight(.black)
+                    .fontWeight(.bold)
                     .foregroundColor(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
+                    .padding(.vertical, 5)
                     .overlay(alignment: .leading) {
                         Image(systemName: "arrow.down")
                             .font(.headline)

@@ -12,6 +12,37 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
+            name: "Maracanã",
+            cityName: "Rio de Janeiro",
+            coordinates: CLLocationCoordinate2D(latitude: -22.9132, longitude: -43.2303),
+            description: "Legendary home of Brazilian soccer hosting Olympic games, plus the opening & closing ceremonies.",
+            imageNames: [
+                "brazil-maracana-1",
+                "brazil-maracana-2",
+            ],
+            link: "https://en.wikipedia.org/wiki/Maracan%C3%A3_Stadium"),
+        Location(
+            name: "Praia da Barra da Tijuca",
+            cityName: "Rio de Janeiro",
+            coordinates: CLLocationCoordinate2D(latitude: -23.0184, longitude: -43.4605),
+            description: "Wide, bustling stretch of sand lined with food kiosks, open sea views & a relaxing vibe.",
+            imageNames: [
+                "brazil-praia-barra-1",
+                "brazil-praia-barra-2",
+            ],
+            link: "https://pt.wikipedia.org/wiki/Barra_da_Tijuca"),
+        Location(
+            name: "Christ the Redeemer",
+            cityName: "Rio de Janeiro",
+            coordinates: CLLocationCoordinate2D(latitude: -22.9518, longitude: -43.2104),
+            description: "Giant, 30-m-tall mountaintop statue of Jesus Christ, accessed by train & offering city views. It is one of the Seven Wonders of the world.",
+            imageNames: [
+                "brazil-christ-1",
+                "brazil-christ-2",
+                "brazil-christ-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"),
+        Location(
             name: "Colosseum",
             cityName: "Rome",
             coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
